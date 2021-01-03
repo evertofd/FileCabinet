@@ -1,1 +1,21 @@
-%h1 Voila this is the placeholder
+#banner
+  .banner_content
+    %h1 File Cabinet
+    %p Your lifes work. Organized, always.
+    %button= link_to "Enter", new_user_registration_path
+
+#callouts
+  .callouts_inner
+    .wrapper
+      .callout
+        =image_tag 'callout_backgroung.jpg'
+        %h2 Organize
+        %p Es simplemente texto de relleno de la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto de relleno estándar de la industria desde la década de 1500, cuando un impresor desconocido tomó una galera de tipos y la mezcló para hacer un libro de muestras tipográfico. Ha sobrevivido no solo a cinco siglos, sino también al salto a la composición tipográfica electrónica, permaneciendo esencialmente sin cambios. Se popularizó en la década de 1960 con el lanzamiento de hojas de Letraset que contienen pasajes de Lorem Ipsum y, más recientemente, con software de autoedición como Aldus PageMaker que incluye versiones de Lorem Ipsum.
+        
+
+
+#bottom_ctm
+  .wrapper
+    %h2 Go Ahead!
+    %br 
+    %button= link_to "Join Now", new_user_registration_path
